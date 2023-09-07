@@ -1,0 +1,35 @@
+.fristDiv{
+    color: blue;
+}
+
+.secondDiv{
+    color: red;
+}
+
+#singledout{
+    color: green;
+    text-decoration: line-through;
+}
+
+/*{
+    color: black;
+}*/
+
+
+h3 + ul{
+    border: 4px dotted black;
+}
+
+li a{
+    color: red;
+}
+
+li a[href="www.facebook.com"]{
+    color: blue;
+    border: 5px solid orange;
+}
+
+body{
+    background-image: url(images.png);
+    width: 100%;
+}

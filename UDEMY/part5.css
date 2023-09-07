@@ -1,0 +1,20 @@
+li{
+    color: red;
+}
+.topitems{
+    color: blue;
+}
+
+#two{
+    border: 3px solid black;
+}
+
+.third{
+    color: aqua;
+    border: 10px double black;
+}
+
+#fourth{
+    color: brown;
+    border: 5px dotted black;
+}
