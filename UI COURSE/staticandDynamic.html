@@ -1,0 +1,41 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>staticanddynamic</title>
+    </head>
+    <body>
+        <script>
+            var student1 = {
+                sname : 'ananth',
+                sage : 12,
+                sclass : 6,
+            }
+            var student2 = {
+                sname :'ramraj',
+                sage : 13,
+                sclass : 7, 
+            }
+            class StudentDetails{
+                constructor(studentData){
+                    this.name = studentData.sname;
+                    this.age = studentData.sage;
+                    this.stuclass = studentData.sclass;
+                    this.school = 'abc';
+                    this.area = 'Hyderabad';
+                }
+                DisplayData(){
+                    console.log("Name is :" + this.name);
+                    console.log("age is :" + this.age);
+                    console.log("sclass is :" + this.stuclass);
+                    console.log("school is :" + this.school);
+                    console.log("area is :" + this.area);
+                }
+            }
+            var obj1 = new StudentDetails(student1);
+            var obj2 = new StudentDetails(student1);
+            obj1.DisplayData();
+            obj2.DisplayData();
+        </script>
+    </body>
+</html>
